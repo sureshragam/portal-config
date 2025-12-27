@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prd"
+
+build:
+  version: "1.0.0"
+
+auth:
+  message: "Welcome to compliant service related prd apis"
+  contactDetails:
+    name: "Suresh - Product Owner"
+    email: "suresh@prd.com"
+  onCallSupport:
+    - 9876543210
+    - 1234567890
